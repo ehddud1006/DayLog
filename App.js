@@ -6,13 +6,14 @@ import {SearchContextProvider} from './contexts/SearchContext';
 
 function App() {
   return (
-    <NavigationContainer>
-      <SearchContextProvider>
-        <LogContextProvider>
-          <RootStack />
-        </LogContextProvider>
-      </SearchContextProvider>
-    </NavigationContainer>
+    // <NavigationContainer>
+    //   <SearchContextProvider>
+    //     <LogContextProvider>
+    //       <RootStack />
+    //     </LogContextProvider>
+    //   </SearchContextProvider>
+    // </NavigationContainer>
+    <NavigationContainer></NavigationContainer>
   );
 }
 
